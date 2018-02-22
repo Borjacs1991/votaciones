@@ -1,0 +1,271 @@
+/***********************************************************************/
+/* CONFIGURATION *******************************************************/
+/***********************************************************************/
+
+
+* {
+	padding: 0px;
+	margin: 0px;
+}
+
+
+
+/***********************************************************************/
+/* GRID ****************************************************************/
+/***********************************************************************/
+
+/*  SECTIONS  */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0px;
+}
+
+
+/*  COLUMN SETUP  */
+.col {
+	display: block;
+	float:left;
+	margin: 1% 0 1% 0%;
+}
+.col:first-child { margin-left: 0; }
+
+
+/*  GROUPING  */
+.group:before,
+.group:after { content:""; display:table; }
+.group:after { clear:both;}
+.group { zoom:1; /* For IE 6/7 */ }
+
+
+/*  TWELVE COLUMNS GRID */
+.col-12 {
+	width: 100%;
+}
+
+.col-11 {
+  	width: 91.66%;
+}
+.col-10 {
+  	width: 83.33%;
+}
+
+.col-9 {
+  	width: 75%;
+}
+
+.col-8 {
+  	width: 66.66%;
+}
+
+.col-7 {
+  	width: 58.33%;
+}
+
+.col-6 {
+  	width: 50%;
+}
+
+.col-5 {
+  	width: 41.66%;
+}
+
+.col-4 {
+  	width: 33.33%;
+}
+
+.col-3 {
+  	width: 25%;
+}
+
+.col-2 {
+  	width: 16.66%;
+}
+
+.col-1 {
+  	width: 8.333%;
+}
+
+
+/*  GO FULL WIDTH BELOW 480 PIXELS */
+@media only screen and (max-width: 480px) {
+	.col {  margin: 1% 0 1% 0%; }
+    
+    .col-12, .col-11, .col-10, .col-9, .col-8, .col-7, .col-6, .col-5, .col-4, .col-3, .col-2, .col-1 {
+	width: 100%; 
+	}
+}
+
+
+
+/***********************************************************************/
+/*  DEFINED HORIZONTAL RULES**************************************************************/
+/***********************************************************************/
+
+.hr-lg {
+	position: relative;
+	height: 90px;
+}
+
+.hr-md {
+	position: relative;
+	height: 60px;
+}
+
+.hr-sm {
+	position: relative;
+	height: 40px;
+}
+
+.ln-lg {
+	position: relative;
+	height: 5px;
+	width: 100%;
+	margin: 45px 0px;
+}
+
+.ln-md {
+	position: relative;
+	height: 5px;
+	width: 50%;
+	margin: 30px 0px;
+}
+
+.ln-sm {
+	position: relative;
+	height: 5px;
+	width: 10%;
+	margin: 10px 0px;
+}
+
+
+
+/***********************************************************************/
+/* COLORS **************************************************************/
+/***********************************************************************/
+textarea {
+	width: 50%;
+	height: 60px;
+}
+input, textarea {
+	border: solid 2px #7f2ae0;
+	bacground-color: #fff;
+	margin: 5px 0px;
+}
+
+input:active {
+	border: solid 2px #3d2170;
+}
+.main-c {
+	color: #7f2ae0;
+}
+.alt-c {
+	color: #3d2170;
+}
+
+.pre-c {
+	color: #9263e8;
+}
+
+.primary-c {
+	color: #3d3d3d;
+}
+
+.secondary-c {
+	color: #f3f3f3;
+}
+
+.main-bg {
+	background-color: #7f2ae0;
+}
+
+.alt-bg {
+	background-color: #fff;
+}
+
+.pre-bg {
+	background-color: #3d3d3d;
+}
+
+
+/* Defined */
+
+header {
+	position: fixed;
+	height: 60px;
+	padding: 0px 8.333%;
+	z-index: 99;
+}
+
+.wrapper {
+	position: relative;
+	width: 83.333%;
+	padding: 50px 8.333% 50px 8.333%;
+	
+}
+
+/* Table */
+
+table {
+	border: solid 2px #7f2ae0;
+}
+
+
+th {
+	background-color: #7f2ae0;
+	color: #fff;
+	padding: 20px 30px;
+}
+
+/* Index */
+
+.secret {
+	display: block;
+	position: relative;
+	padding: 5px 10px;
+	background-color: #fff;
+	border-radius: 10px;
+	color: #7f2ae0;
+	float: left;
+}
+
+.formcontent {
+	width: 90%;
+	padding: 0px 5%;
+}
+.groupname {
+	position: relative;
+	height:100px;
+}
+
+.question {
+	position: relative;
+}
+
+.question section {
+	position: relative;
+}
+
+.numspan {
+	font-size: 2rem;
+	padding-right: 10px;
+}
+
+.commentspan {
+	font-size: 1.2rem;
+	padding-right: 10px;
+}
+
+.fcolumns {
+	width: 83.333%;
+	padding: 40px 8.333%;
+}
+
+.button {
+	border: solid 2px #7f2ae0;
+	border-radius: 10px;
+	background-color: #fff;
+	color: #7f2ae0;
+	padding: 10px 10px;
+	
+}
